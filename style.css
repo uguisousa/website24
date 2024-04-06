@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-size: 100%;
+    font-family: "Poppins";
+    color: #FFFFFF;
+}
+#itens{
+    padding: 10px;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 46rem;
+}
+body {  
+    background: linear-gradient(180deg, rgb(64, 76, 120) 28%, rgb(64, 40, 120) 100%);    
+    /* background-color: rgb(40, 43, 71); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a.a-cursos{
+    color: white;
+    /* text-decoration:underline ; */
+}
+a{
+    color: #5cb2e4;
+    text-decoration: none;
+}
+.github-p{
+    color: #a8d3e9;
+    
+}
+
+
+span.colorir{
+    color: #85a6b6;
+}
+
+.container{ 
+    max-width: 50rem;
+    margin: 0 auto;
+    width: 100%;    
+    /* position: relative; */
+    height: auto;
+    background-color :#373d41;
+}
+
+/* inicio ------ */
+img#plano-fundo-profile{
+width: 100%;
+height:240px;
+}
+img#file-profile{
+    position: absolute;
+    /* bottom: 38pc; */
+    /* transform: translateY(102px); */
+    width: 7.9rem;
+    border-radius: 50%;
+    border: solid 4px;
+    /* display: flex; */
+    transform: translate(60px, -5pc);
+    /* padding: 0 100px; */
+}
+.formacao-profile{
+    padding: 10px;
+    list-style: none;
+    max-width: 46rem;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+hr#solo{
+ border: none;
+ border: solid 1px #4d5459f1;   
+ display: block;
+ position: relative;
+ bottom: 2pc;
+}
+hr#solo2{
+    display: none;
+    border: none;
+ border: solid 1px #4d5459f1; 
+}
+.profile-name{
+    padding: 50px;
+}
+.gui{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+
+.sobre-mim-profile{
+    /* background-color: #66839c; */
+    padding: 10px;
+    list-style: none;
+    max-width: 46rem;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+span.title-profile{
+    color: #c4c8cf;
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sub-name{
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    bottom: 3.5pc;
+    /* border: solid; */
+    max-width: 90%;
+    left: 7%;
+    /* right: 14.2pc; */
+    /* text-decoration: underline; */
+    color: rgb(193, 193, 193);
+    
+}
+#solo3{
+    border: none;
+    border: solid 1px #4d5459f1;
+}
+.formacao-profile{
+    background-color: #393c41;
+}
+#info-prof{
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    /* border: solid; */
+    max-width: 90%;
+    position: relative;
+    bottom: 4.7pc;
+    left: 31px;
+    padding: 10px;    
+}
+.ftIcon{
+    padding: 3px;
+    top: 9px;
+    position: relative;
+    width: 23px;
+}
+.footer{
+    background-color: #40444d;
+    max-width: 50rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 574px) {
+    section#info-prof{
+        display: inline-block;
+        padding: 1pc;
+    }
+    .sub-name{
+        /* border: solid; */
+        max-width: 20pc;
+    }
+    .responsive{
+        /* display: flex; */
+        overflow-Y: hidden;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+.sub-name{
+    max-width: 11rem;
+    /* border: solid; */
+    text-align: center;
+}
+}
+@media screen and (max-width: 228px) {
+.gui{
+    /* border: solid; */
+    position: relative;
+    font-size: 25px;
+}
+img#file-profile{
+    width: 106px;
+    left: -10px;
+}
+}
